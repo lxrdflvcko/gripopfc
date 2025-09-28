@@ -127,11 +127,11 @@ const About: React.FC = () => {
               <div className="text-gray-600">Jaar ervaring</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-orange-600 mb-2">50+</div>
+              <div className="text-4xl font-bold text-orange-600 mb-2">10+</div>
               <div className="text-gray-600">Organisaties geholpen</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-green-600 mb-2">100+</div>
+              <div className="text-4xl font-bold text-green-600 mb-2">25+</div>
               <div className="text-gray-600">Projecten afgerond</div>
             </div>
             <div>
@@ -141,46 +141,9 @@ const About: React.FC = () => {
           </div>
         </section>
 
-        {/* Certifications & Education */}
+        {/* Working Method */}
         <section className="mb-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Opleidingen & Certificaten
-              </h3>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <Award className="w-6 h-6 text-blue-900 mt-1" />
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Register Controller (RC)</h4>
-                    <p className="text-gray-600 text-sm">Nederlandse Orde van Controllers</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <BookOpen className="w-6 h-6 text-orange-600 mt-1" />
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Master Bedrijfseconomie</h4>
-                    <p className="text-gray-600 text-sm">Universiteit van Amsterdam</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <Award className="w-6 h-6 text-green-600 mt-1" />
-                  <div>
-                    <h4 className="font-semibold text-gray-900">BBV Specialist Certificaat</h4>
-                    <p className="text-gray-600 text-sm">VNG Academy</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <Users className="w-6 h-6 text-purple-600 mt-1" />
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Leiderschapsvaardigheden</h4>
-                    <p className="text-gray-600 text-sm">Nijenrode Business Universiteit</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div>
+          <div className="max-w-2xl mx-auto">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 Werkwijze
               </h3>
@@ -210,7 +173,6 @@ const About: React.FC = () => {
                   </p>
                 </div>
               </div>
-            </div>
           </div>
         </section>
 
