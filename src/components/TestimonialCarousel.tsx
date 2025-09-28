@@ -43,12 +43,6 @@ const TestimonialCarousel: React.FC = () => {
                 <cite className="font-bold text-slate-900 not-italic text-lg">
                   {testimonials[currentIndex].author}
                 </cite>
-                <p className="text-slate-600 text-sm mt-1">
-                  {testimonials[currentIndex].position}
-                </p>
-                <p className="text-slate-500 text-sm">
-                  {testimonials[currentIndex].organization}
-                </p>
               </div>
               
               <div className="flex space-x-2">
